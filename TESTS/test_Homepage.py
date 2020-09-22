@@ -19,6 +19,7 @@ class TestHomePage(BaseClass):
         self.selectOptionByText(homePage.getGender(), getData["gender"])
         homePage.getSubmit().click()
         message = homePage.getSuccessMessage().text
+        print(message)
         assert ("success" in message)
         self.driver.refresh()
 
