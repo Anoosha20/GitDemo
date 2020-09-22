@@ -20,6 +20,7 @@ class TestHomePage(BaseClass):
         homePage.getSubmit().click()
         message = homePage.getSuccessMessage().text
         print(message)
+        print("hi")
         assert ("success" in message)
         self.driver.refresh()
 
