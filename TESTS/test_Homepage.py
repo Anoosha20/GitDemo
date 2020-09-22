@@ -21,6 +21,7 @@ class TestHomePage(BaseClass):
         message = homePage.getSuccessMessage().text
         print(message)
         print("hi")
+        print("hello")
         assert ("success" in message)
         self.driver.refresh()
 
