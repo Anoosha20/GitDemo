@@ -27,3 +27,4 @@ class TestHomePage(BaseClass):
         return request.param
 
 print("Thank You")
+print("Welcome")
