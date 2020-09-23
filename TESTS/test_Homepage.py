@@ -22,6 +22,7 @@ class TestHomePage(BaseClass):
         print(message)
         print("hi")
         print("hello")
+        print("Have a good day")
         assert ("success" in message)
         self.driver.refresh()
 
